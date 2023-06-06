@@ -7,21 +7,17 @@ public class Main {
         //Değişkenleri tanımlıyoruz.
         float mat,fizik,kimya,turkce,tarih,muzik;
 
-        //İnputlarımızı tanımlıyoruz.
-        Scanner input1 = new Scanner(System.in);
-        Scanner input2 = new Scanner(System.in);
-        Scanner input3 = new Scanner(System.in);
-        Scanner input4 = new Scanner(System.in);
-        Scanner input5 = new Scanner(System.in);
-        Scanner input6 = new Scanner(System.in);
+        //İnputumuzu tanımlıyoruz.
+        Scanner input = new Scanner(System.in);
+        
 
         //Girilen inputları değişkenlerimize atıyoruz.
-        mat = input1.nextFloat();
-        fizik = input2.nextFloat();
-        kimya = input3.nextFloat();
-        turkce = input4.nextFloat();
-        tarih = input5.nextFloat();
-        muzik = input6.nextFloat();
+        mat = input.nextFloat();
+        fizik = input.nextFloat();
+        kimya = input.nextFloat();
+        turkce = input.nextFloat();
+        tarih = input.nextFloat();
+        muzik = input.nextFloat();
 
         // Girilen notların ortalamasını bulmak için yeni bir değişken tanımlıyoruz.
         float notOrtalamasi;
